@@ -1,0 +1,10 @@
+# roles/docker_nginx/handlers/main.yml
+---
+- name: notify install nginx
+  debug:
+    msg: "Nginx is running! Hooray"
+
+- name: restart docker
+  service:
+    name: docker
+    state: restarted
