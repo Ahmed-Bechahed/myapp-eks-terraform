@@ -5,7 +5,7 @@ This repository contains the terraform file code, which we can use to provision 
 
 
 ``` 
-cd kube_terraform/ToDo-App/
+cd ToDo-App/
 terraform init
 ```
 
