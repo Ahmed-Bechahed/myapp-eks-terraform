@@ -26,7 +26,7 @@ terraform {
 }
 ```
 
-Let's set up the variable for our Infrastructure and create one file with the name of terraform.tfvars inside kube_terraform/ToDo-App/backend.tf and add the below conntent into that file.
+Let's set up the variable for our Infrastructure and create one file with the name of terraform.tfvars inside ToDo-App/backend.tf and add the below conntent into that file.
 
 ```
 REGION          = "us-east-1"
